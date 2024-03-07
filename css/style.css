@@ -1,4 +1,15 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
+/* Created by: Hai Tran
+* Created on: March 2024
 * This file contains the CSS for index.html
 */
+.image {
+  height: auto;
+  width: 1000px;
+  float: right;
+}
+
+.mdl-layout__content {
+  padding-left: 15pt;
+  padding-right: 15pt;
+  padding-top: 15pt;
+}
