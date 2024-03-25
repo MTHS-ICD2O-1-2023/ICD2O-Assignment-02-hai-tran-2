@@ -12,8 +12,8 @@
  */
 function calculateVolumeOfCylinder() {
   // input
-  const heightOfCylinder = parseInt(document.getElementById('height-of-cylinder').value)
-  const radiusOfBase = parseInt(document.getElementById('radius-of-base').value)
+  const heightOfCylinder = parseFloat(document.getElementById('height-of-cylinder').value)
+  const radiusOfBase = parseFloat(document.getElementById('radius-of-base').value)
 
   // process
   const volumeOfCylinder = (Math.PI * radiusOfBase * radiusOfBase * heightOfCylinder) 
